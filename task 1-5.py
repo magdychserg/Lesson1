@@ -1,6 +1,6 @@
 # Расчеет прибыли компании
-revenue = int(input("Enter revenue your company:"))
-costs = int(input("Enter the company's costs:"))
+revenue = int(input("Enter revenue your company: "))
+costs = int(input("Enter the company's costs: "))
 if revenue < costs:
     print(f"your losses ", costs - revenue)
 else:
